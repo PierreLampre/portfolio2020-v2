@@ -1,0 +1,77 @@
+.navbar {
+  background-color: #3B3433;
+  color: white;
+  width: 100%;
+  display: grid;
+  align-items: center;
+}
+
+.navbar-grid {
+  display: grid;
+  grid-template-columns: .1fr 1fr auto;
+  align-items: center;
+}
+
+a > h1 {
+  text-decoration: none;
+  color: ghostwhite;
+  cursor: pointer;
+}
+
+.burger {
+  align-self: center;
+  justify-self: center;
+  margin-left: 15px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  justify-self: start;
+  align-self: center;
+  margin-left: .5rem;
+}
+
+.listItemContainer {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  justify-self: end;
+  align-self: center;
+}
+
+.listItemContainer ul {
+  list-style-type: none;
+}
+
+.listItemContainer ul li {
+  display: inline;
+  padding: 0px 10px;
+}
+
+.listItemContainer ul li:nth-of-type(4) {
+ margin-right: 30px;
+}
+
+.listItemContainer ul li a {
+ text-decoration: none;
+ color: white; 
+}
+
+.listItemContainer ul li a:hover {
+  text-decoration: underline;
+ }
+
+@media screen and (max-width: 725px) {
+  .listItemContainer ul {
+    display: none;
+  }
+
+  .navbar-grid {
+    grid-template-columns: auto auto;
+  }
+
+  a > h1 {
+    margin-top: 9px;
+  }
+}

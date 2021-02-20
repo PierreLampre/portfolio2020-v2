@@ -1,0 +1,7 @@
+.skills {
+    grid-row: 2 / 3;
+    display: grid;
+    color: ghostwhite;
+    align-items: center;
+    justify-items: center;
+}
