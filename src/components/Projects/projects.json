@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Tubecast",
+        "tech": "HTML, CSS, Javascript, React",
+        "pkgs": "moment.js, disable-scroll, react-router-dom",
+        "deployed": "https://tubecast.netlify.app/",
+        "repo": "https://github.com/PierreLampre/tubecast-v2",
+        "blurb": "Tubecast is meant to simulate the classic Comcast TV Guide and OnDemand screens I grew up with. The user can click on individual programs as they appear in the schedule to load them into the video player, or click on the channel names to peruse all programs scheduled on the channel to view on demand.",
+        "img": "https://i.ibb.co/kcKHJB0/tubecast.png",
+        "css": {
+            "text": "#dcfdfd",
+            "bg": "linear-gradient(#006adc, #003977)",
+            "btnBG": "#0094ef"
+        }
+    },
+    {
+        "name": "Keep Yourself Alive",
+        "tech": "HTML, CSS, Javascript, React",
+        "pkgs": "moment.js, react-router-dom",
+        "deployed": "https://keepyourselfalive.netlify.app/",
+        "repo": "https://github.com/PierreLampre/medicine-tracker",
+        "blurb": "I am not good at remembering to take my medication.  This application allows the user to input medication names and how often they are taken.  When the user clicks 'Take Medicine', it makes a timestamp of when it was taken and when it should be taken again.  This timestamp persists to local storage and can be cleared.",
+        "img": "https://i.ibb.co/713W7V2/kya.png",
+        "css": {
+            "text": "honeydew",
+            "bg": "lightseagreen",
+            "btnBG": "coral"
+        }
+    },
+    {
+        "name": "Georgian Phonics",
+        "tech": "HTML, CSS, Javascript",
+        "pkgs": "None",
+        "deployed": "https://pierrelampre.github.io/georgian-phonics/",
+        "repo": "https://github.com/PierreLampre/georgian-phonics",
+        "blurb": "A friend of mine wanted help with his language learning application.  I refactored the javascript to be more flexible and wrote css for responsive design.",
+        "img": "https://i.ibb.co/HVS9d5s/gphon.png",
+        "css": {
+            "text": "#fffaff",
+            "bg": "#242526",
+            "btnBG": "#6b2d5c"
+        }
+    },
+    {
+        "name": "Rob Moore",
+        "tech": "Wordpress, HTML, CSS, Javascript",
+        "pkgs": "None",
+        "deployed": "https://robisabeast.com",
+        "repo": "https://github.com/PierreLampre/robisabeast",
+        "blurb": "A Wordpress Blog site for a musician and author named Rob Moore. My first Wordpress project!",
+        "img": "https://i.ibb.co/XZ5SPPc/rob.png",
+        "css": {
+            "text": "white",
+            "bg": "black",
+            "btnBG": "#404040"
+        }
+    }
+]

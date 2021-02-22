@@ -1,7 +1,223 @@
 .home {
     grid-row: 2 / 3;
-    display: grid;
     color: ghostwhite;
-    align-items: center;
-    justify-items: center;
+    width: 100%;
+    height: 100%;
+    background: black;
+    padding: 50px;
+    position: relative;
+    display: grid;
+}
+
+.star-outlined-1 {
+    position: absolute;
+    top: 30%;
+    left: 63%;
+    animation-name: fadeOutIn;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+}
+
+.star-outlined-2 {
+    position: absolute;
+    top: 53%;
+    left: 25%;
+    transform: rotate(200deg);
+    height: 160px;
+    animation-name: fadeOutIn;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.star-filled-1 {
+    position: absolute;
+    top: 40%;
+    left: 79%;
+    width: 50px;
+    animation-name: dim;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+}
+
+.star-filled-2 {
+    position: absolute;
+    top: 52%;
+    left: 67%;
+    width: 50px;
+    animation-name: fadeInOut;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.star-filled-3 {
+    position: absolute;
+    top: 38%;
+    left: 14%;
+    width: 50px;
+    animation-name: dim;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+.ornament-1 {
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    top: 27%;
+    left: 23%;
+    animation-name: fadeInOut;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.title-box {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+}
+
+.my-name, .my-title {
+    text-align: center;
+}
+
+.my-name {
+    font-family: Mesquite;
+    color: rgba(235, 151, 78, 1);
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+.my-title {
+    font-family: Magneto;
+    font-size: 30px;
+    color: silver;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0.2;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.2;
+    }
+}
+
+
+@keyframes fadeOutIn {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes dim {
+    0%{
+        opacity: 0.2
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: .2;
+    }
+}
+
+@media screen and (min-width: 400px) {
+
+    .title-box {
+        margin-top: -100px;
+    }
+
+    .star-outlined-1 {
+        top: 14%;
+        left: 53%;
+    }
+    
+    .star-outlined-2 {
+        top: 52%;
+        left: 21%;
+    }
+    
+    .star-filled-1 {
+        top: 32%;
+        left: 86%;
+    }
+    
+    .star-filled-2 {
+        top: 52%;
+        left: 69%;
+        width: 50px;
+    }
+    
+    .star-filled-3 {
+        top: 32%;
+        left: 2%;
+        width: 50px;
+    }
+    
+    .ornament-1 {
+        width: 100px;
+        height: 150px;
+        top: 12%;
+        left: 21%;
+    }
+
+}
+
+@media screen and (min-width: 728px) {
+
+    
+    .my-name {
+        font-size: 80px;
+    }
+
+    .my-title {
+        font-size: 40px;
+    }
+
+    .star-outlined-1 {
+        top: 11%;
+        left: 53%;
+    }
+    
+    .star-outlined-2 {
+        top: 54%;
+        left: 29%;
+    }
+    
+    .star-filled-1 {
+        top: 32%;
+        left: 74%;
+    }
+    
+    .star-filled-2 {
+        top: 54%;
+        left: 62%;
+        width: 50px;
+    }
+
+    .star-filled-3 {
+        top: 33%;
+        left: 19%;
+    }
+
+    .ornament-1 {
+        top: 10%;
+        left: 28%;
+    }
+
 }

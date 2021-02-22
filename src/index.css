@@ -10,3 +10,12 @@ body {
   justify-items: center;
 }
 
+@font-face{
+  font-family: "Mesquite";
+  src: local("Mesquite"), url("./fonts/Blackhawk-3R58.otf") format("opentype");
+}
+
+@font-face{
+  font-family: "Magneto";
+  src: local("Magneto"), url("./fonts/Magneto-Bold.ttf") format("truetype");
+}

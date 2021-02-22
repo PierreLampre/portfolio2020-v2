@@ -4,4 +4,148 @@
     color: ghostwhite;
     align-items: center;
     justify-items: center;
+    grid-template-rows: 10% auto 80%;
+}
+
+.project-button-box {
+    display: flex;
+}
+
+.project-button {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 6px;
+    color: ghostwhite;
+    background: #3B3433;
+    cursor: pointer;
+}
+
+.chosen-project {
+    display: grid;
+    background: aliceblue;
+    width: 93%;
+    height: 90%;
+    border-radius: 12px;
+    color: midnightblue;
+    padding: 12px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.photo-and-name {
+    grid-column: 1 / 7;
+    grid-row: 1 / 4;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    justify-items: center;
+}
+
+img {
+    width: 150px;
+    height: 130px;
+}
+
+.img-box {
+    grid-row: 1 / 4;
+    grid-column: 1 / 4;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+
+.screenshot {
+    width: 70%;
+}
+
+.proj-name {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    grid-column: 4 / 7;
+    grid-row: 1 / 4;
+    width: 100%;
+    display: grid;
+    align-self: center;
+}
+
+.tech {
+    grid-column: 1 / 7;
+    grid-row: 4 / 5;
+    display: grid;
+    align-items: center;
+}
+
+.pkgs {
+    grid-column: 1 / 7;
+    grid-row: 5 / 6;
+    display: grid;
+    align-items: center;
+}
+
+.blurb {
+    grid-column: 1 / 7;
+    grid-row: 6 / 10;
+    display: grid;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.link-btn-box {
+    grid-column: 1 / 7;
+    grid-row: 10 / 11;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.link-btn > button {
+    padding: 8px;
+    border-radius: 6px;
+    color: aliceblue;
+    background: midnightblue;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 660px) {
+
+    .img-box {
+        grid-column: 4 / 7;
+        grid-row: 1 / 5;
+    }
+
+    .proj-name {
+        grid-column: 1 / 4;
+    }
+
+    .tech {
+        grid-column: 1 / 4;
+    }
+
+    .screenshot {
+        width: 85%;
+        height: 95%;
+    }
+
+}
+
+@media screen and (min-width: 845px) {
+
+    .proj-name {
+        font-size: 36px;
+    }
+
+    .img-box {
+        grid-row: 1 / 7;
+    }
+
+    .pkgs {
+        grid-column: 1 / 4;
+    }
+
+    .pkgs, .tech, .blurb {
+        padding-left: 40px;
+    }
+
+
 }

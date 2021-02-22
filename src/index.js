@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "./fonts/Magneto-Bold.ttf"
+import "./fonts/Blackhawk-3R58.otf"
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
