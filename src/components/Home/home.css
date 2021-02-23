@@ -82,10 +82,9 @@
 
 .my-name {
     font-family: Mesquite;
-    color: rgba(235, 151, 78, 1);
+    color: rgba(236, 100, 75, 1);
     font-size: 60px;
     letter-spacing: 3px;
-    text-shadow: #cc7000 2px 1px 10px;
 }
 
 .my-title {
