@@ -24,8 +24,8 @@ const ChosenProject = ({ project }) => {
                 Packages: {project.pkgs}
             </div>
             <div className="link-btn-box">
-                <a className="link-btn" href={project.deployed}><button style={btnStyle}>Deployed</button></a>
-                <a className="link-btn" href={project.repo}><button style={btnStyle}>Repo</button></a>
+                <a className="link-btn" href={project.deployed}><button style={btnStyle} target="_blank" rel="noopener noreferrer">Deployed</button></a>
+                <a className="link-btn" href={project.repo}><button style={btnStyle} target="_blank" rel="noopener noreferrer">Repo</button></a>
             </div>
             <div className="blurb">
                 About: {project.blurb}
