@@ -2,6 +2,30 @@
     grid-row: 2 / 3;
     display: grid;
     color: ghostwhite;
-    align-items: center;
     justify-items: center;
+    grid-template-rows: 10% 90%;
 }
+
+.contact > h1 {
+    grid-row: 1 / 2;
+    display: grid;
+    align-self: center;
+}
+
+.my-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.info-el{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info-el > img {
+    margin-right: 4px;
+    height: 60px;
+}
+

@@ -12,7 +12,7 @@
   align-items: center;
 }
 
-a > h1 {
+a {
   text-decoration: none;
   color: ghostwhite;
   cursor: pointer;
@@ -31,6 +31,7 @@ a > h1 {
   justify-self: start;
   align-self: center;
   margin-left: .5rem;
+  text-decoration: none;
 }
 
 .listItemContainer {

@@ -33,7 +33,7 @@
         "pkgs": "None",
         "deployed": "https://pierrelampre.github.io/georgian-phonics/",
         "repo": "https://github.com/PierreLampre/georgian-phonics",
-        "blurb": "A friend of mine wanted help with his language learning application.  I refactored the javascript to be more flexible and wrote css for responsive design.",
+        "blurb": "A friend of mine wanted help with his language learning application.  I refactored the javascript and wrote css for responsive design.  Click the checkboxes of letters you wish to be tested on.  The computer will make one of the character sounds you selected. Try to match it by hitting the button with the character you hear.",
         "img": "https://i.ibb.co/HVS9d5s/gphon.png",
         "css": {
             "text": "#fffaff",
@@ -47,7 +47,7 @@
         "pkgs": "None",
         "deployed": "https://robisabeast.com",
         "repo": "https://github.com/PierreLampre/robisabeast",
-        "blurb": "A Wordpress Blog site for a musician and author named Rob Moore. My first Wordpress project!",
+        "blurb": "A Wordpress Blog site for a musician and author named Rob Moore. My first Wordpress project! This site is hosted on Dreamhost and is also the first site for which I've set up paid hosting and custom domain.  Once I get a strong foundation in Wordpress I'd be interested in learning Drupal.",
         "img": "https://i.ibb.co/XZ5SPPc/rob.png",
         "css": {
             "text": "white",

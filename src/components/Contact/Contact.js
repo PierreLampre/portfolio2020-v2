@@ -1,10 +1,27 @@
 import React from 'react'
+import phone from "../../img/phone.svg"
+import email from "../../img/email.svg"
+import resume from "../../img/resume.svg"
 import "./contact.css"
 
 const Contact = () => {
     return (
         <div className="contact">
             <h1>Contact</h1>
+            <div className="my-info">
+                <div className="info-el">
+                    <img className="info-icon" src={phone} alt="a phone"/>
+                    <a href="tel:856-982-3258">856-982-3258</a>
+                </div>
+                <div className="info-el">
+                    <img className="info-icon" src={email} alt="a phone"/>
+                    <a href="mailto:pierrelampre@gmail.com">pierrelampre@gmail.com</a>
+                </div>
+                <div className="info-el">
+                    <img className="info-icon" src={resume} alt="a phone"/>
+                    <a href="/src/img/fe_resume_10_2020.pdf" download>My Resume</a>
+                </div>
+            </div>
         </div>
     )
 }
