@@ -16,7 +16,7 @@ const Skills = () => {
                 </div>
                 <div className="section current">
                     <h3>Current Learning Focus:</h3>
-                    React Router, Framer Motion, Sass
+                    Next.js
                 </div>
                 <div className="section a-little-more">
                     I'm not afraid of learning anything new. Three years ago I didn't know anything about web development. A year ago I'd never used React.  I am excited at the prospect of learning new skills and working on a team.
