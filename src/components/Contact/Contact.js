@@ -2,6 +2,7 @@ import React from 'react'
 import phone from "../../img/phone.svg"
 import email from "../../img/email.svg"
 import resume from "../../img/resume.svg"
+import my_resume from "../../img/fe_resume_10_2020.pdf"
 import "./contact.css"
 
 const Contact = () => {
@@ -10,16 +11,16 @@ const Contact = () => {
             <h1>Contact</h1>
             <div className="my-info">
                 <div className="info-el">
-                    <img className="info-icon" src={phone} alt="a phone"/>
+                    <img className="info-icon" src={phone} alt="a phone" />
                     <a href="tel:856-982-3258">856-982-3258</a>
                 </div>
                 <div className="info-el">
-                    <img className="info-icon" src={email} alt="a phone"/>
+                    <img className="info-icon" src={email} alt="a phone" />
                     <a href="mailto:pierrelampre@gmail.com">pierrelampre@gmail.com</a>
                 </div>
                 <div className="info-el">
-                    <img className="info-icon" src={resume} alt="a phone"/>
-                    <a href="/src/img/fe_resume_10_2020.pdf" download>My Resume</a>
+                    <img className="info-icon" src={resume} alt="a phone" />
+                    <a href={my_resume} download>My Resume</a>
                 </div>
             </div>
         </div>
