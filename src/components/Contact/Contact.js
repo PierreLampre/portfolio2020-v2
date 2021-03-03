@@ -2,7 +2,7 @@ import React from 'react'
 import phone from "../../img/phone.svg"
 import email from "../../img/email.svg"
 import resume from "../../img/resume.svg"
-import my_resume from "../../img/fe_resume_10_2020.pdf"
+import my_resume from "../../img/Justin-Lampe_resume_2021.pdf"
 import "./contact.css"
 
 const Contact = () => {
