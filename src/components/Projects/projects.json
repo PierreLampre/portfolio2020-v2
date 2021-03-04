@@ -42,17 +42,17 @@
         }
     },
     {
-        "name": "Rob Moore",
-        "tech": "Wordpress, HTML, CSS, Javascript",
+        "name": "Credit Card Form",
+        "tech": "HTML, CSS, Javascript, React",
         "pkgs": "None",
-        "deployed": "https://robisabeast.com",
-        "repo": "https://github.com/PierreLampre/robisabeast",
-        "blurb": "A Wordpress Blog site for a musician and author named Rob Moore. My first Wordpress project! This site is hosted on Dreamhost and is also the first site for which I've set up paid hosting and custom domain.  Once I get a strong foundation in Wordpress I'd be interested in learning Drupal.",
-        "img": "https://i.ibb.co/XZ5SPPc/rob.png",
+        "deployed": "https://crcardform.netlify.app",
+        "repo": "https://github.com/PierreLampre/credit-card-form",
+        "blurb": "A credit card form component that displays the inputs as the user types them in. I saw a codepen that used a jQuery plugin for this, but was curious how I could make it work in React.  There is also validation on each input using regular expressions or standard javacript logic.",
+        "img": "https://i.ibb.co/0X5CzLn/ccss.png",
         "css": {
-            "text": "white",
-            "bg": "black",
-            "btnBG": "#404040"
+            "text": "#fff5ee",
+            "bg": "#b22222",
+            "btnBG": "#c94277"
         }
     }
 ]
