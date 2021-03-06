@@ -4,6 +4,7 @@
   width: 100%;
   display: grid;
   align-items: center;
+  min-height: 66.08px;
 }
 
 .navbar-grid {
@@ -62,6 +63,14 @@ a {
 .listItemContainer ul li a:hover {
   text-decoration: underline;
  }
+
+@media screen and (max-width: 1060px) {
+
+  .navbar {
+    width: 100vw;
+  }
+
+}
 
 @media screen and (max-width: 725px) {
   .listItemContainer ul {

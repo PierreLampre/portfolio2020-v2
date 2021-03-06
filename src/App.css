@@ -4,6 +4,6 @@
   background: #242526;
   max-width: 1060px;
   display: grid;
-  grid-template-rows: 8% 92%;
+  grid-template-rows: minmax(66.08px, 74.95px) 92%;
   font-family: 'Overpass', sans-serif;
 }

@@ -248,3 +248,75 @@
     }
 
 }
+
+@media screen and (max-height: 700px) { 
+
+    .star-outlined-1 {
+        width: 20%;
+        height: 15%;
+        top: 12%;
+        left: 63%;
+    }
+    
+    .star-outlined-2 {
+        top: 57%;
+        left: 21%;
+        width: 20%;
+        height: 12%;
+    }
+    
+    .star-filled-1 {
+        top: 36%;
+        left: 84%;
+        width: 8%;
+        height: 11%;
+    }
+    
+    .star-filled-2 {
+        top: 57%;
+        left: 67%;
+        width: 8%;
+        height: 11%;
+    }
+    
+    .star-filled-3 {
+        top: 36%;
+        left: 8%;
+        width: 8%;
+        height: 11%;
+    }
+    
+    .ornament-1 {
+        top: 13%;
+        left: 23%;
+        width: 11%;
+        height: 14%;
+    }
+    
+    .title-box {
+        display: grid;
+        align-self: center;
+        justify-self: center;
+    }
+    
+    .my-name, .my-title {
+        text-align: center;
+    }
+    
+    .my-name {
+        font-family: Mesquite;
+        color: rgba(236, 100, 75, 1);
+        font-size: 60px;
+        letter-spacing: 3px;
+    }
+    
+    .my-title {
+        font-family: Magneto;
+        font-size: 30px;
+        background: linear-gradient(silver, rgba(89, 171, 227, 1), silver);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+}

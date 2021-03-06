@@ -42,17 +42,17 @@
         }
     },
     {
-        "name": "Credit Card Form",
-        "tech": "HTML, CSS, Javascript, React",
+        "name": "Crystal Collector",
+        "tech": "HTML, CSS, jQuery",
         "pkgs": "None",
-        "deployed": "https://crcardform.netlify.app",
-        "repo": "https://github.com/PierreLampre/credit-card-form",
-        "blurb": "A credit card form component that displays the inputs as the user types them in. I saw a codepen that used a jQuery plugin for this, but was curious how I could make it work in React.  There is also validation on each input using regular expressions or standard javacript logic.",
-        "img": "https://i.ibb.co/0X5CzLn/ccss.png",
+        "deployed": "https://pierrelampre.github.io/Crystal-Collector/",
+        "repo": "https://github.com/PierreLampre/Crystal-Collector",
+        "blurb": "A game I built in as an assignment at Penn LPS Full Stack Bootcamp.  Click the crystals to see their numeric value.  Click a combination of the crystals to match the number displayed.  This was my first project using jQuery and jQuery UI.",
+        "img": "https://i.ibb.co/S61yLBF/cc-collector.png",
         "css": {
-            "text": "#fff5ee",
-            "bg": "#b22222",
-            "btnBG": "#c94277"
+            "text": "ghostwhite",
+            "bg": "#06215b",
+            "btnBG": "#4b0faa"
         }
     }
 ]
