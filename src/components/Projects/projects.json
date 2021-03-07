@@ -48,7 +48,7 @@
         "deployed": "https://pierrelampre.github.io/Crystal-Collector/",
         "repo": "https://github.com/PierreLampre/Crystal-Collector",
         "blurb": "A game I built in as an assignment at Penn LPS Full Stack Bootcamp.  Click the crystals to see their numeric value.  Click a combination of the crystals to match the number displayed.  This was my first project using jQuery and jQuery UI.",
-        "img": "https://i.ibb.co/S61yLBF/cc-collector.png",
+        "img": "https://i.ibb.co/DzqxVLr/cc-collector.png",
         "css": {
             "text": "ghostwhite",
             "bg": "#06215b",
